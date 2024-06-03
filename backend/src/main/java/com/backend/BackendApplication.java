@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 
+// TODO. 시큐리티 off 설정 삭제
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
 public class BackendApplication {
 

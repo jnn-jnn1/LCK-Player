@@ -9,7 +9,7 @@ export function Navbar() {
     <Flex gap={3}>
       <Center>LCK Player</Center>
       <Center onClick={() => navigate("/video")}>영상 보기</Center>
-      <Button onClick={() => axios.get("/api/")}>쿠키얻기</Button>
+      <Button onClick={() => axios.get("/api/get")}>쿠키얻기</Button>
     </Flex>
   );
 }
